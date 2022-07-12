@@ -6,3 +6,7 @@ export interface Post {
   date: string;
   slug: string;
 }
+
+export interface FullPost extends Post {
+  content: string;
+}
