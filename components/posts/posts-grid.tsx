@@ -11,7 +11,7 @@ const PostsGrid: FC<PostsGridProps> = ({ posts }): ReactElement => {
   return (
     <ul className={classes.grid}>
       {posts.map(post => {
-        return <PostItem key={post.id} post={post} />;
+        return <PostItem key={post.slug} post={post} />;
       })}
     </ul>
   );
