@@ -4,8 +4,6 @@ export interface Post {
   excerpt: string;
   date: string;
   slug: string;
-}
-
-export interface FullPost extends Post {
+  isFeatured: boolean;
   content: string;
 }
