@@ -50,8 +50,6 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
         .collection('messages')
         .insertOne(newMessage);
 
-      console.log(message);
-
       result.id = result.insertedId;
     } catch (err) {
       client.close();
