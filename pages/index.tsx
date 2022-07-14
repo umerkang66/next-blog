@@ -12,7 +12,7 @@ const HomePage: NextPage<
   return (
     <Fragment>
       <Head>
-        <title>Umer's Blog</title>
+        <title>Umer&apos;s Blog</title>
         <meta
           name="description"
           content="I post about programming and web development"

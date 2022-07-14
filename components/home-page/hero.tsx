@@ -12,7 +12,7 @@ const Hero = (): JSX.Element => {
           height={300}
         />
       </div>
-      <h1>Hi, I'm Umer</h1>
+      <h1>Hi, I&apos;m Umer</h1>
       <p>I blog about web development - especially React, and Node.js</p>
     </section>
   );

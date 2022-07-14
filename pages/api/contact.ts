@@ -63,7 +63,7 @@ async function handler(req: NextApiRequest, res: NextApiResponse) {
     });
   }
 
-  res.status(422).json({ message: 'Invalid request' });
+  res.status(422).json({ message: 'This endpoint is not available' });
 }
 
 export default handler;
